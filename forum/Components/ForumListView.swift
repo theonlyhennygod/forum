@@ -14,7 +14,7 @@ import SwiftUI
 struct ForumListView: View {
     
     @State private var forumTopics: [ForumTopic] = [
-        ForumTopic(title: "Swift UI Basics", author: "Henny ", content: "this is the first of many"),
+        ForumTopic(title: "Swift UI", author: "Henny ", content: "this is the first of many"),
         ForumTopic(title: "Swift UI Basics", author: "Henny ", content: "this is the second of many")
     ]
 
